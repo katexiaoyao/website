@@ -1,8 +1,24 @@
-body {
-    display: block;
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ul, li  {
     margin: 0px;
     padding: 0px;
+    border: 0px;
 }
+
+body {
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif, SimSun;
+    font-size: 16px;
+    width: 100%;
+    background-color: #fff;
+}
+
 a {
     text-decoration: none;
 }
+
+.header {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
