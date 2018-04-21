@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "file": "/Users/yjmini2/工作/website_v2.0/src/index.html",
+            "file": "/Users/yjmini2/work/website_v2.0/src/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

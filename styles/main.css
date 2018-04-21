@@ -3,22 +3,96 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ul, li  {
     padding: 0px;
     border: 0px;
 }
-
 body {
     font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif, SimSun;
-    font-size: 16px;
     width: 100%;
     background-color: #fff;
 }
-
-a {
-    text-decoration: none;
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #313131;
 }
-
+h2 {
+    font-size: 26px;
+    color: #313131;
+}
+h3 {
+    font-size: 24px;
+    color: #ffffff;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+h5 {
+    font-size: 18px;
+    color: #313131;
+}
+h6 {
+    font-size: 16px;
+    color: #ffffff;
+}
+p {
+    font-size: 16px;
+    color: #797979;
+}
+a {
+    display: flex;
+    align-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    color: #313131;
+}
 .header {
     width: 1200px;
     height: 80px;
     margin: 0 auto;
+}
+.logo {
+    width: 48px;
+    height: 33px;
+    margin: 30px 10px 20px 0px;
+    float: left;
+}
+.logo-title {
+    width: 132px;
+    height: 26px;
+    margin-top: 34px;
+    margin-right: 246px;
+    float: left;
+}
+.navigation {
+    margin-top: 32px;
+    float: left;
+}
+.homepage, .products, .aboutus {
+    float: left;
+    line-height: 18px;
+    padding: 10px 15px;
+    
+}
+.homepage {
+    width: 50px;
+}
+.products {
+    width: 50px;
+    margin: 0 46px;
+}
+.aboutus {
+    width: 92px;
+}
+.homepage:hover, .products:hover, .aboutus:hover {
+    background-color: #ff9c00;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.search {
+    width: 176px;
+    height: 36px;
+    float: right;
+    margin-left: 228px;
 }
 
 
