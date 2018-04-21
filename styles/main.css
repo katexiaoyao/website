@@ -33,22 +33,31 @@ h5 {
 h6 {
     font-size: 16px;
     color: #ffffff;
+    font-weight: normal;
 }
 p {
     font-size: 16px;
     color: #797979;
+    text-align: center;
 }
 a {
-    display: flex;
-    align-content: space-between;
     text-decoration: none;
     font-size: 18px;
     color: #313131;
+}
+ul, li {
+    list-style: none;
 }
 .header {
     width: 1200px;
     height: 80px;
     margin: 0 auto;
+}
+.header::after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
 }
 .logo {
     width: 48px;
@@ -64,14 +73,17 @@ a {
     float: left;
 }
 .navigation {
-    margin-top: 32px;
+    width: 369px;
+    margin-top: 34px;
     float: left;
 }
 .homepage, .products, .aboutus {
     float: left;
+    height: 18px;
     line-height: 18px;
     padding: 10px 15px;
-    
+    cursor: pointer;
+    border-radius: 3px;
 }
 .homepage {
     width: 50px;
@@ -81,18 +93,122 @@ a {
     margin: 0 46px;
 }
 .aboutus {
-    width: 92px;
+    width: 87px;
 }
 .homepage:hover, .products:hover, .aboutus:hover {
     background-color: #ff9c00;
-    border-radius: 3px;
+}
+.homepage:hover a, .products:hover a, .aboutus:hover a {
+    color: #ffffff;
+}
+.search {  
+    width: 174px;
+    height: 34px;
+    margin-top: 34px;
+    border: 1px solid #313131;
+    float: right;
+}
+.search input {
+    position:relative;
+    padding: 0px;
+    width: 134px;
+    height: 34px;
+    border: none;
+    font-size: 16px;
+}
+.search .input-btn {
+    position: relative;
+    width: 40px;
+    height: 34px;
+    background: url(../assets/images/search.png) 50% 50% no-repeat;
+    float: right;
     cursor: pointer;
 }
-.search {
-    width: 176px;
-    height: 36px;
-    float: right;
-    margin-left: 228px;
+.search .input-btn::before {
+    content:"";
+    display: block;
+    position:absolute;
+    height:30px;
+    top: 2px;
+    left: 0px;
+    border-left: 1px solid #313131;
 }
+.footer-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 379px;
+    background: url(../assets/images/contactbg.png) 50% 0 no-repeat;
+    padding: 35px 0 30px 0;
+}
+.footer {
+    width: 1028px;
+    margin: 0 auto; 
+}
+.footer::after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
+}
+.footer-title {
+    box-sizing: border-box;
+    width: 256px;
+    height: 42px;
+    line-height: 24px;
+    padding: 7px 30px;
+    border: 2px solid #ff9c00;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 auto 70px auto; 
+}
+.detail {
+    float: left;
+}
+.detail > li {
+    float: left;
+    text-align: center;
+}
+.detail a {
+    font-size: 12px;
+    color: #ffffff;
+}
+.detail > li:nth-child(2) {
+    margin: 0 76px;
+}
+.detail h6 {
+    padding-bottom: 18px;
+}
+.detail > li > p:nth-of-type(2) {
+    padding: 14px 0;
+}
+.contact-info {
+    float: right;
+}
+.contact-info img {
+    padding-right: 5px;
+}
+.contact-info p {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.contact-info span {
+    padding-left: 10px;
+}
+.contact-info > p:nth-child(1) img {
+    position: relative;
+    top: 4px;
+    padding-right: 6px;
+}
+.contact-info > p:nth-child(3) img {
+    position: relative;
+    top: 3px;
+    padding-right: 7px;
+}
+.copyright {
+    font-size: 11px;
+    color: #fff;
+    margin-top: 45px;
 
-
+}
