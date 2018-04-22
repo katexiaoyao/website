@@ -1,0 +1,136 @@
+.homepage, .homepage a {
+    color: #ffffff;
+    background-color: #ff9c00;
+}
+.index-banner-container {
+    width: 100%;
+    height: 576px;
+    background: url(../assets/images/indexbannerbg.png) 50% -80px no-repeat;
+}
+.index-banner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.index-banner::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.banner-text {
+    position: absolute;
+    width: 565px;
+    padding-top: 220px;
+}
+.index-banner h1 {
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 24px;
+    color: #fff;
+}
+.index-banner h4 {
+    line-height: 20px;
+    padding-top: 25px;
+}
+.banner-img {
+    float: right;
+}
+
+.index-intro {
+    width: 1028px;
+    margin: 0 auto;
+    padding: 88px 0 147px 0;
+}
+.index-intro::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;    
+}
+.intro-text {
+    width: 765px;
+    float: right;
+}
+.intro-text::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;    
+}
+.intro-text h1, .intro-text p {
+    float: right;
+}
+.intro-text h1 {
+    line-height: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 5px;
+}
+.intro-text h1::after {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 6px;
+    background-color: #ff9c00;
+    margin: 14px 0 0 260px;
+}
+.intro-text p {
+    font-weight: normal;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: 2px;
+}
+.intro-img {
+    float: left;
+    padding-top: 80px;
+}
+.index-photo {
+    width: 100%;
+    height: 180px;
+    background: url(../assets/images/indexphoto.png) 50% 0 no-repeat ;
+}
+.index-advantage {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 78px 0 160px 0;
+}
+.index-advantage::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;    
+}
+.advantage-1, .advantage-2, .advantage-3 {
+    width: 260px;
+    height: 336px;
+    float: left;
+}
+.advantage-1 {
+    background: url(../assets/images/advantage1.png) 50% 0 no-repeat;
+}
+.advantage-2 {
+    margin: 0 150px;
+    background: url(../assets/images/advantage2.png) 50% 0 no-repeat;
+}
+.advantage-3 {
+    background: url(../assets/images/advantage3.png) 50% 0 no-repeat;
+}
+.index-advantage h3 {
+    color: #313131;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 24px;
+    padding: 147px 0 20px 0;
+}
+.advantage-icon {
+    padding: 0 119px 12px 119px;
+}
+.index-advantage p {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding: 0 25px 0 25px;
+}
+.advantage-2 p {
+    padding: 0px;
+}

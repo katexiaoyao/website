@@ -1,0 +1,99 @@
+.products, .products a {
+    color: #ffffff;
+    background-color: #ff9c00;
+}
+.products-banner-container {
+    width: 100%;
+    height: 380px;
+    background-color: #25282b;
+}
+.products-banner {
+    width: 1028px;
+    margin: 0 auto;
+}
+.products-banner::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.banner-text {
+    width: 330px;
+    padding-top: 146px;
+    float: left;
+}
+.products-banner h1 {
+    font-size: 50px;
+    line-height: 50px;
+    height: 29px;   
+    color: #fff;
+    letter-spacing: 5px;
+}
+.blue-bg {
+    content: "";
+    display: block;
+    width: 103px;
+    height: 22px;
+    background-color: #02c1de;
+}
+.products-banner h4 {
+    line-height: 20px;
+    padding-top: 17px;
+    letter-spacing: 5px;
+}
+.banner-img {
+    float: right;
+}
+.products-nav {    
+    width: 100%;
+    height: 132px;
+    background-color: #f0f0f0;
+}
+.products-nav::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.nav-container {
+    width: 1050px;
+    margin: 0 auto;
+}
+.products-nav .nav {
+    float: left;
+    margin: 34px 136px 18px 136px;
+    position: relative;
+}
+.products-nav h6 {
+    color: #262626;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: lighter;
+}
+.products-nav .all-products {
+    width: 71px;
+    background: url(../assets/images/allproductsicon.png) 50% 0 no-repeat;
+}
+.pc-products {
+    width:75px;
+    background: url(../assets/images/pcproductsicon.png) 50% 0 no-repeat;
+}
+.pc-products::before, .pc-products::after {
+    content: "";
+    display: block;
+    border-left: 1px solid #ccc;
+    height: 98px;
+    position: absolute;
+    top: -17px;
+}
+.pc-products::before {
+    left: -136px;
+}
+.pc-products::after {
+    right: -136px;    
+}
+
+.iOS-products {
+    width: 88px;
+    background: url(../assets/images/iosproductsicon.png) 50% 0 no-repeat;
+}

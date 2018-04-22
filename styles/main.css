@@ -10,8 +10,8 @@ body {
 }
 h1 {
     font-size: 30px;
-    font-weight: bold;
     color: #313131;
+    font-weight: normal;
 }
 h2 {
     font-size: 26px;
@@ -23,8 +23,8 @@ h3 {
 }
 h4 {
     font-size: 20px;
-    font-weight: bold;
     color: #ffffff;
+    font-weight: normal;
 }
 h5 {
     font-size: 18px;
@@ -78,28 +78,28 @@ ul, li {
     float: left;
 }
 .homepage, .products, .aboutus {
+    display: block;
+    box-sizing: border-box;
     float: left;
-    height: 18px;
+    height: 36px;
     line-height: 18px;
-    padding: 10px 15px;
+    padding: 9px 15px;
     cursor: pointer;
     border-radius: 3px;
 }
 .homepage {
-    width: 50px;
+    width: 80px;
 }
 .products {
-    width: 50px;
+    width: 80px;
     margin: 0 46px;
 }
 .aboutus {
-    width: 87px;
+    width: 112px;
 }
 .homepage:hover, .products:hover, .aboutus:hover {
     background-color: #ff9c00;
-}
-.homepage:hover a, .products:hover a, .aboutus:hover a {
-    color: #ffffff;
+    color: #fff;
 }
 .search {  
     width: 174px;
@@ -184,22 +184,21 @@ ul, li {
 .contact-info {
     float: right;
 }
-.contact-info img {
-    padding-right: 5px;
-}
 .contact-info p {
     color: #fff;
     font-size: 14px;
     text-align: left;
     padding-bottom: 25px;
 }
-.contact-info span {
-    padding-left: 10px;
-}
 .contact-info > p:nth-child(1) img {
     position: relative;
     top: 4px;
     padding-right: 6px;
+}
+.contact-info > p:nth-child(2) img {
+    position: relative;
+    top: 1px;
+    padding-right: 5px;
 }
 .contact-info > p:nth-child(3) img {
     position: relative;
@@ -210,5 +209,4 @@ ul, li {
     font-size: 11px;
     color: #fff;
     margin-top: 45px;
-
 }
