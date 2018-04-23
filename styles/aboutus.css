@@ -2,3 +2,113 @@
     color: #ffffff;
     background-color: #ff9c00;
 }
+.banner h4 {
+    padding-top: 43px;
+}
+.impact-num {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    line-height: 120px;
+    color: #f7f2ea;
+    text-align: center;
+    z-index: -1;
+    letter-spacing: 14px;
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 5px;
+}
+p {
+    text-align: left;
+    line-height: 34px;
+    color: #313131;
+    letter-spacing: 5px;
+}
+.about-company {
+    position: relative;
+    box-sizing: border-box;
+    height: 470px;
+    width: 1028px;
+    margin: 0 auto;
+}
+.about-company h1 {
+    top: 86px;
+    left: 441px;
+}
+.about-company .impact-num {
+    padding: 37px 0;
+}
+.about-company span {
+    color: #02c1de
+}
+.about-professional {
+    width: 100%;
+    height: 180px;
+
+    background: url(../assets/images/aboutprofessional.png) 50% 0 no-repeat;
+}
+.prof-title {
+    width: 1028px;
+    margin: 0 auto;
+    padding: 58px 0;
+}
+.prof-title h2 {
+    position: relative;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.prof-title h2::before, .prof-title h2::after {
+    content: "";
+    display: block;
+    width: 68px;
+    border-top: 2px solid #fff;
+    position: absolute;
+    top: 13px;
+}
+.prof-title h2::before {
+    left: 353px;
+}
+.prof-title h2::after {
+    left: 605px;
+}
+.prof-title h6 {
+    text-align: center;
+    line-height: 16px;
+    padding-top: 20px;
+    padding-left: 14px;
+    letter-spacing: 13px;
+}
+.about-prospect, .about-policy {
+    width: 1028px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.about-prospect {
+    padding-top: 128px;
+}
+.about-prospect::after, .about-policy::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.about-img {
+    float: left;
+}
+.about-text {
+    width: 467px;
+    float: right;
+    position: relative;
+}
+.about-text .impact-num {
+    text-align: left;
+    padding-bottom: 30px;
+}
+.about-text h1 {
+    top: 49px;
+}
