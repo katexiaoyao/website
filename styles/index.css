@@ -41,7 +41,7 @@
     margin: 0 auto;
     padding: 88px 0 147px 0;
 }
-.index-intro::after {
+.index-intro::after, .intro-text::after {
     content: "";
     display: block;
     clear: both;
@@ -50,12 +50,6 @@
 .intro-text {
     width: 765px;
     float: right;
-}
-.intro-text::after {
-    content: "";
-    display: block;
-    clear: both;
-    visibility: hidden;    
 }
 .intro-text h1, .intro-text p {
     float: right;
@@ -74,7 +68,6 @@
     margin: 14px 0 0 260px;
 }
 .intro-text p {
-    font-weight: normal;
     line-height: 36px;
     text-align: right;
     letter-spacing: 2px;
