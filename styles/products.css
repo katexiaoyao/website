@@ -83,17 +83,24 @@
     letter-spacing: 2px;
     padding-bottom: 30px;
 }
+.intro-text span {
+    color: #02C1de;
+}
 .download-btn {
     display: block;
     position: absolute;
-    width: 138px;
-    height: 60px;
-    padding-left: 28px;
     box-sizing: border-box;
-    padding-top: 17px;
-    line-height: 18px;
+    width: 120px;
+    height: 43px;
+    background: #ff9c00;
+    text-align: center;
+    padding-top: 9px;
+    box-shadow: 0 5px 10px rgba(75,46,0,0.2);
     letter-spacing: 3px;
-    background: url(../assets/images/downloadbg.png) 100% 100% no-repeat;
+    transition: color 0.2s ease;
+}
+.download-btn:hover {
+    color: #fff;
 }
 .intro-img {
     float: right;

@@ -1,0 +1,38 @@
+.sub-banner {
+    width: 100%;
+    height: 180px;
+}
+.sub-banner-title {
+    width: 1028px;
+    margin: 0 auto;
+    padding: 58px 0;
+}
+.sub-banner-title h2 {
+    position: relative;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.sub-banner-title h2::before, .sub-banner-title h2::after {
+    content: "";
+    display: block;
+    width: 68px;
+    border-top: 2px solid #fff;
+    position: absolute;
+    top: 13px;
+}
+.sub-banner-title h2::before {
+    left: 353px;
+}
+.sub-banner-title h2::after {
+    left: 605px;
+}
+.sub-banner-title h6 {
+    text-align: center;
+    line-height: 16px;
+    padding-top: 20px;
+    padding-left: 14px;
+    letter-spacing: 13px;
+}
