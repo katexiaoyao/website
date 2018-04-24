@@ -1,6 +1,9 @@
-.products, .products a {
+.products {
     color: #ffffff;
     background-color: #ff9c00;
+}
+.products:hover {
+    color: #fff;
 }
 .products-nav {    
     width: 100%;

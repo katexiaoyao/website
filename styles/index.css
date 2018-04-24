@@ -1,6 +1,9 @@
-.homepage, .homepage a {
+.homepage {
     color: #ffffff;
     background-color: #ff9c00;
+}
+.homepage:hover {
+    color: #fff;
 }
 .index-banner-container {
     width: 100%;

@@ -1,6 +1,9 @@
-.aboutus, .aboutus a {
+.aboutus {
     color: #ffffff;
     background-color: #ff9c00;
+}
+.aboutus:hover {
+    color: #fff;
 }
 .banner h4 {
     padding-top: 43px;
