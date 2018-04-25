@@ -38,5 +38,84 @@
     letter-spacing: 5px;
 }
 .banner-img {
+    width: 602px;
     float: right;
+    position: relative;
+}
+.layer {
+    position: absolute;
+    animation: slide-move-60 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-1 {
+    animation: slide-move-10 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-2 {
+    animation: slide-move-20 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-3 {
+    animation: slide-move-30 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-4 {
+    animation: slide-move-40 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-5 {
+    animation: slide-move-50 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-6 {
+    animation: slide-move-60 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+@keyframes slide-move-10 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 10px);
+    }
+    100% {
+       opacity: 1;
+    }
+}
+@keyframes slide-move-20 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 20px);
+    }
+    100% {
+       opacity: 1;
+    }
+}
+@keyframes slide-move-30 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 30px);
+    }
+    100% {
+       opacity: 1;
+    }
+}
+@keyframes slide-move-40 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 40px);
+    }
+    100% {
+       opacity: 1;
+    }
+}
+@keyframes slide-move-50 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 50px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateZ(0);
+    }
+}
+@keyframes slide-move-60 {
+    0% { 
+        opacity: 0;
+        transform: translate(0, 60px);
+    }
+    100% {
+       opacity: 1;
+    }
 }

@@ -22,7 +22,7 @@
 }
 .products-nav .nav {
     float: left;
-    margin: 34px 136px 18px 136px;
+    margin: 32px 136px 18px 136px;
     position: relative;
 }
 .products-nav h6 {
@@ -112,6 +112,7 @@
     position: relative;
     box-sizing: border-box;
     padding-top: 88px;
+    margin-bottom: 80px;
     height: 382px;
     background: url(../assets/images/verifyappline.png) 0 bottom no-repeat;
 }
@@ -122,9 +123,9 @@
 .verify-pc {
     position: relative;
     box-sizing: border-box;
-    padding-top: 160px;
-    height: 534px;
-    background: url(../assets/images/verifypcline.png) 355px 386px no-repeat;
+    padding-top: 80px;
+    height: 454px;
+    background: url(../assets/images/verifypcline.png) 355px 306px no-repeat;
 }
 .verify-pc .intro-text, .sign-app .intro-text {
     float: right;
@@ -133,7 +134,7 @@
     float: left;
 }
 .verify-pc .download-btn {
-    top: 367px;
+    top: 287px;
     left: 899px;
 }
 .verify-pc h2, .sign-app h2 {

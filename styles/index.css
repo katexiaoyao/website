@@ -12,32 +12,49 @@
 }
 .index-banner {
     width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-.index-banner::after {
+/* .index-banner::after {
     content: "";
     display: block;
     clear: both;
     visibility: hidden;
-}
+} */
 .banner-text {
     position: absolute;
     width: 565px;
     padding-top: 220px;
 }
 .index-banner h1 {
-    font-size: 50px;
-    line-height: 50px;
+    /* font-size: 50px;
+    line-height: 50px; */
     padding-bottom: 24px;
-    color: #fff;
+    letter-spacing: 0px;
+    /* color: #fff; */
 }
 .index-banner h4 {
-    line-height: 20px;
+    /* line-height: 20px; */
     padding-top: 25px;
+    letter-spacing: 0px;
 }
 .banner-img {
-    float: right;
+    width: 602px;
+    float: right;   
 }
+/* .layer {
+    position: absolute;
+    animation: slide-move .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+@keyframes slide-move {
+    0% { 
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    }
+    100% {
+       opacity: 1;
+       transform: translateZ(0);
+    }
+} */
 
 .index-intro {
     width: 1028px;
