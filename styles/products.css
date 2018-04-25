@@ -21,22 +21,26 @@
     margin: 0 auto;
 }
 .products-nav .nav {
-    float: left;
-    margin: 32px 136px 18px 136px;
+    box-sizing: border-box;
     position: relative;
+    width: 350px;
+    float: left;
+    padding: 98px 135px 18px 135px;
+    cursor: pointer;
 }
 .products-nav h6 {
     color: #262626;
     text-align: center;
-    padding-top: 60px;
+    line-height: 16px;
 }
-.products-nav .all-products {
-    width: 71px;
-    background: url(../assets/images/allproductsicon.png) 50% 0 no-repeat;
+.all-products {
+    background: url(../assets/images/allproductsicon.png) 50% 40% no-repeat;
 }
 .pc-products {
-    width:75px;
-    background: url(../assets/images/pcproductsicon.png) 50% 0 no-repeat;
+    background: url(../assets/images/pcproductsicon.png) 50% 40% no-repeat;
+}
+.ios-products {
+    background: url(../assets/images/iosproductsicon.png) 50% 40% no-repeat;
 }
 .pc-products::before, .pc-products::after {
     content: "";
@@ -44,18 +48,34 @@
     border-left: 1px solid #ccc;
     height: 98px;
     position: absolute;
-    top: -17px;
+    top: 22px;
 }
 .pc-products::before {
-    left: -136px;
+    left: 0px;
 }
 .pc-products::after {
-    right: -136px;    
+    left: 350px;    
 }
-
-.iOS-products {
-    width: 88px;
-    background: url(../assets/images/iosproductsicon.png) 50% 0 no-repeat;
+.all-products:hover {
+    background: url(../assets/images/allproductshover.png) 50% 40% no-repeat #f5e8d7;
+}
+.pc-products:hover {
+    background: url(../assets/images/pcproductshover.png) 50% 40% no-repeat #f5e8d7;
+}
+.ios-products:hover {
+    background: url(../assets/images/iosproductshover.png) 50% 40% no-repeat #f5e8d7;
+}
+.all-products.all-products-click {
+    background: url(../assets/images/allproductsclick.png) 50% 40% no-repeat;
+    color: #ff9c00;
+}
+.pc-products.pc-products-click {
+    background: url(../assets/images/pcproductsclick.png) 50% 40% no-repeat;
+    color: #ff9c00;
+}
+.ios-products.ios-products-click {
+    background: url(../assets/images/iosproductsclick.png) 50% 40% no-repeat;
+    color: #ff9c00;
 }
 .products-download-container {
     width: 100%;
