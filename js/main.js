@@ -1,4 +1,14 @@
 $(document).ready(function() {
+    $("input").focus(function() {
+        $("input").css({"border-color":"#ff9c00", "width": "226px"});
+        $(".input-btn").css({"background": "url(../assets/images/inputfocus.png) 50% 50% no-repeat", "border-left": "1px solid #ff9c00"});
+    });
+    $("input").blur(function() {
+        $("input").css({"border-color":"#313131", "width": "176px"});
+        $(".input-btn").css({"background": "url(../assets/images/search.png) 50% 50% no-repeat", "border-left": "1px solid #313131"});
+    });
+    
+    
     $(".all-products").click(function() {
         $(".verify-app").show();
         $(".verify-pc").show();
@@ -11,7 +21,6 @@ $(document).ready(function() {
         $(".pc-products h6").css("color","#262626");
         $(".ios-products h6").css("color","#262626");
     });
-
     $(".pc-products").click(function() {
         $(".verify-app").hide();
         $(".verify-pc").show();
@@ -24,7 +33,6 @@ $(document).ready(function() {
         $(".pc-products h6").css("color","#ff9c00");
         $(".ios-products h6").css("color","#262626");
     });
-
     $(".ios-products").click(function() {
         $(".verify-app").show();
         $(".verify-pc").hide();
@@ -38,11 +46,11 @@ $(document).ready(function() {
         $(".ios-products h6").css("color","#ff9c00");
     });
 
+    
     $(".download-btn").mousedown(function() {
         $(".download-btn").css("box-shadow","none");
     });
     $(".download-btn").mouseup(function() {
         $(".download-btn").css("box-shadow","0 5px 10px rgba(75,46,0,0.2)");
     });
-
 });

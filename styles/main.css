@@ -4,7 +4,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, ul, li  {
     border: 0px;
 }
 body {
-    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif, SimSun;
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
     width: 100%;
     background-color: #fff;
 }
@@ -101,22 +101,25 @@ ul, li {
 .homepage:hover, .products:hover, .aboutus:hover {
     color: #ff9c00;
 }
-.search {  
-    width: 174px;
-    height: 34px;
+.search { 
+    position: relative;
+    width: 226px;
+    height: 36px;
     margin-top: 34px;
-    border: 1px solid #313131;
     float: right;
+
 }
-.search input {
+.search input { 
     box-sizing: border-box;
-    padding: 0 10px;
-    position:relative;
-    width: 134px;
-    height: 34px;
-    border: none;
+    float: right;  
+    padding: 0 40px 0 10px;
+    width: 176px;
+    height: 36px;
+    border: 1px solid #313131;;
     font-size: 16px;
     font-weight: normal;
+    outline: none;
+    transition: all .3s ease;
 }
 .search input::-webkit-input-placeholder {
     color:  #797979;
@@ -125,21 +128,15 @@ ul, li {
     color: #797979;
 }
 .search .input-btn {
-    position: relative;
+    position: absolute;
+    left: 186px;
+    top: 3px;
     width: 40px;
-    height: 34px;
-    background: url(../assets/images/search.png) 50% 50% no-repeat;
-    float: right;
-    cursor: pointer;
-}
-.search .input-btn::before {
-    content:"";
-    display: block;
-    position:absolute;
-    height:30px;
-    top: 2px;
-    left: 0px;
+    height: 30px;
     border-left: 1px solid #313131;
+    background: url(../assets/images/search.png) 50% 50% no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
 }
 .footer-container {
     box-sizing: border-box;
@@ -177,6 +174,7 @@ ul, li {
     text-align: center;
 }
 .detail a {
+    display: block;
     font-size: 12px;
     color: #ffffff;
     font-weight: lighter;
@@ -191,7 +189,7 @@ ul, li {
 .detail h6 {
     padding-bottom: 18px;
 }
-.detail > li > p:nth-of-type(2) {
+.detail > li > a:nth-of-type(2) {
     padding: 14px 0;
 }
 .contact-info {

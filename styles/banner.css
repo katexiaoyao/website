@@ -48,21 +48,27 @@
 }
 .layer-1 {
     animation: slide-move-10 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(10px);
 }
 .layer-2 {
     animation: slide-move-20 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(30px);
 }
 .layer-3 {
     animation: slide-move-30 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(50px);
 }
 .layer-4 {
     animation: slide-move-40 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(70px);
 }
 .layer-5 {
     animation: slide-move-50 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(90px);
 }
 .layer-6 {
     animation: slide-move-60 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+    transform: translateZ(110px);
 }
 @keyframes slide-move-10 {
     0% { 
