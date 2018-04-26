@@ -8,7 +8,12 @@ $(document).ready(function() {
         $(".input-btn").css({"background": "url(../assets/images/search.png) 50% 50% no-repeat", "border-left": "1px solid #313131"});
     });
     
-    
+    $(".banner").mousemove(function(e) {
+        var rotateX = (e.pageY-288) / 288*10  + "deg";
+        var rotateY = (600 - e.pageX) / 600*10 + "deg";
+        $(".banner-img").css("transform","rotateX("+ rotateX +") rotateY(" + rotateY + ")");
+    });
+
     $(".all-products").click(function() {
         $(".verify-app").show();
         $(".verify-pc").show();
