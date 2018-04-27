@@ -9,15 +9,15 @@
             "request": "launch",
             "reAttach": true,
             "name": "Launch firefox",
-            "file": "/Users/yjmini2/work/website_v2.0/src/index.html",
-            // "file": "/Users/yu/Documents/yunjingwebsite/website/src/index.html",
+            // "file": "/Users/yjmini2/work/website_v2.0/src/index.html",
+            "file": "/Users/yu/Documents/yunjingwebsite/website/src/index.html",
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            // "file": "/Users/yjmini2/work/website_v2.0/src/index.html",
-           "file": "/Users/yu/Documents/yunjingwebsite/website/src/index.html",
+            "file": "/Users/yjmini2/work/website_v2.0/src/index.html",
+        //    "file": "/Users/yu/Documents/yunjingwebsite/website/src/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
