@@ -5,11 +5,9 @@
 .aboutus:hover {
     color: #fff;
 }
-.banner h4 {
-    padding-top: 43px;
-}
 .impact-num {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    font-family: Impact, Haettenschweiler, sans-serif;
     font-size: 120px;
     line-height: 120px;
     color: #f7f2ea;
@@ -28,6 +26,9 @@
     line-height: 34px;
     color: #313131;
     letter-spacing: 5px;
+}
+.about-company, .about-professional, .about-prospect, .about-policy {
+    transform: translateZ(0);
 }
 .about-company {
     position: relative;

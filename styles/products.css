@@ -5,6 +5,9 @@
 .products:hover {
     color: #fff;
 }
+.products-nav, .products-download-container {
+    transform: translateZ(0);
+}
 .products-nav {    
     width: 100%;
     height: 132px;

@@ -43,6 +43,7 @@
     position: relative;
     transform-style: preserve-3d;
     transition: all .5s ease-out;
+    backface-visibility: hidden;
 }
 .banner-img img {
     position: absolute;
