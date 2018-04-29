@@ -53,9 +53,26 @@ $(document).ready(function() {
 
     
     $(".download-btn").mousedown(function() {
-        $(".download-btn").css("box-shadow","none");
+        $(this).css("box-shadow","none");
     });
     $(".download-btn").mouseup(function() {
-        $(".download-btn").css("box-shadow","0 5px 10px rgba(75,46,0,0.2)");
+        $(this).css("box-shadow","0 5px 10px rgba(75,46,0,0.2)");
+        if ($(this).hasClass("verify-app-dlbtn")) {
+            $(".popup-cover").css("display","block");
+            $(".verify-app-download").css("display","block");
+        } else if ($(this).hasClass("verify-pc-dlbtn")) {
+            $(".popup-cover").css("display","block");
+            $(".verify-pc-download").css("display","block");
+        } else if ($(this).hasClass("sign-app-dlbtn")) {
+            $(".popup-cover").css("display","block");
+            $(".sign-app-download").css("display","block");
+        }
     });
+    $(".download-popup .close-btn").click(function() {
+        $(".popup-cover, .verify-app-download, .verify-pc-download, .sign-app-download").css("display","none");
+    });
+    // 
+    $(".pc-download a").click(function() {
+        $(".popup-cover, .verify-app-download, .verify-pc-download, .sign-app-download").css("display","none");
+    })
 });

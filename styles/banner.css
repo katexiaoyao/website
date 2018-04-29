@@ -50,16 +50,16 @@
     top: 0px;
     right: 0px;
 }
-.layer-1 {
+.layer {
     animation: slide-move-10 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
+}
+.layer-1 {
     transform: translateZ(50px);
 }
 .layer-2 {
-    animation: slide-move-30 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
     transform: translateZ(100px);
 }
 .layer-3 {
-    animation: slide-move-50 .8s cubic-bezier(0.4,0,.2,1) 0s 1;
     transform: translateZ(150px);
 }
 

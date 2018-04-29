@@ -113,17 +113,19 @@
     color: #02C1de;
 }
 .download-btn {
-    display: block;
     position: absolute;
     box-sizing: border-box;
     width: 120px;
     height: 43px;
     background: #ff9c00;
+    font-size: 18px;
+    color: #313131;
     text-align: center;
     padding-top: 9px;
     box-shadow: 0 5px 10px rgba(75,46,0,0.2);
     letter-spacing: 3px;
     transition: color 0.2s ease;
+    cursor: pointer;
 }
 .download-btn:hover {
     color: #fff;
@@ -191,4 +193,118 @@
 .sign-app .download-btn {
     top: 290px;
     left: 899px;
+}
+.popup-cover, .verify-app-download, .verify-pc-download, .sign-app-download {
+    display: none;
+}
+.popup-cover {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.app-download, .pc-download {
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+}
+.app-download {
+    width: 500px;
+    height: 600px;
+    padding-top: 110px;
+}
+.app-download h3 {
+    line-height: 24px;
+    color: #313131;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+.app-download p {
+    line-height: 16px;
+    color: #313131;
+}
+.download-popup .close-btn {
+    position: absolute;
+    box-sizing: border-box;
+    top: 16.5px;
+    left: 463.5px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.close-btn::before, .close-btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 24px;
+    width: 24px; 
+}
+.close-btn::before {
+    top: 11.5px;
+    border-top: 1px solid #b5b5b5;
+}
+.close-btn::after {
+    left: 11.5px;
+    border-left: 1px solid #b5b5b5;
+}
+.pc-download {
+    width: 600px;
+    height: 360px;
+    padding-top: 100px;
+    padding-left: 97px;
+    padding-right: 97px;
+}
+.pc-download::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 228px;
+    border-left: 1px solid #f0f0f0;
+}
+.pc-download::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.pc-download .windows {
+    float: left;
+}
+.windows img {
+    width: 68px;
+    height: 79px;
+}
+.pc-download .mac {
+    float: right;
+}
+.mac img {
+    width: 64px;
+    height: 79px;
+}
+.pc-download p {
+    color: #313131;
+    line-height: 16px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+.pc-download a {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ff9c00;
+}
+.pc-download .close-btn {
+    left: 563.5px;
 }
