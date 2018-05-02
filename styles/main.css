@@ -122,11 +122,14 @@ ul, li {
     outline: none;
     transition: all .3s ease;
 }
-.search input::-webkit-input-placeholder {
-    color:  #797979;
+
+input::-webkit-input-placeholder {
+    color:  #b2b2b2;
+    font-weight: lighter;
 }
 .search input::-moz-placeholder {
-    color: #797979;
+    color: #b2b2b2;
+    font-weight: lighter;
 }
 .search .input-btn {
     position: absolute;

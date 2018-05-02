@@ -21,21 +21,27 @@
 .banner h1 {
     font-size: 50px;
     line-height: 50px;
-    height: 29px;   
     color: #fff;
     letter-spacing: 5px;
 }
-.blue-bg {
-    content: "";
-    display: block;
-    width: 103px;
-    height: 22px;
-    background-color: #02c1de;
-}
-.banner h4 {
-    line-height: 20px;
+.products-container .banner-text h4, .aboutus-container .banner-text h4 {
+    box-sizing: border-box;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px; 
+    margin-top: 20px;
     padding-top: 17px;
-    letter-spacing: 5px;
+    padding-left: 8px;
+    padding-bottom: 14px;
+    color: #313131;
+    background-color: #02c1de;
+    border-radius: 5px;
+}
+.products-container .banner-text h4 {
+    width: 330;
+}
+.aboutus-container .banner-text h4 {
+    width: 256px;
 }
 .banner-img {
     width: 602px;
