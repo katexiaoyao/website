@@ -240,6 +240,10 @@
     left: 463.5px;
     width: 24px;
     height: 24px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
     transform: rotate(45deg);
     cursor: pointer;
 }
@@ -271,6 +275,10 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     height: 228px;
     border-left: 1px solid #f0f0f0;
